@@ -21,10 +21,7 @@ for x in range(len(codecs)):
         print('I can\'t load data for', codecs[x], '\n')
         print(input('Press any key...'))
 
-# To jest komentarz, którym sprawdzę w jaki sposób korzystać z git'a
-# kolejny komentarz
-# jeszcze jeden komentarz
-# komentarz nr 4
+# to będą zmiany dokonywane na branchu "feature-enumerate"
 
 
 
