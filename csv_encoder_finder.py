@@ -22,6 +22,7 @@ for x in range(len(codecs)):
         print(input('Press any key...'))
 
 # To jest komentarz, którym sprawdzę w jaki sposób korzystać z git'a
+# kolejny komentarz
 
 
 
