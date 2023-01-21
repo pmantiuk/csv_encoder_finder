@@ -25,6 +25,7 @@ for x in range(len(codecs)):
 # kolejny komentarz
 # jeszcze jeden komentarz
 # komentarz nr 4
+# komentarz piąty z testem dodawania commitów z poziomu cmdera
 
 
 
