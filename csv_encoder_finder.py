@@ -14,7 +14,7 @@ for index, codec in enumerate(codecs, 1):
     print(f'{index} : checking use of: {codec} \n')
     try:
 # here give a file that you want to encode instead of: 'H2-43.csv'
-        df = pd.read_csv('plan.csv', header = 0, encoding = codec, sep=';') 
+        df = pd.read_csv('H2-43.csv', header = 0, encoding = codec, sep=';') 
         print(df.info())
         print(input('Press any key...'))
     except:
