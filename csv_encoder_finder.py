@@ -10,18 +10,18 @@ codecs = ['ascii','big5','big5hkscs','cp037','cp273','cp424','cp437','cp500','cp
           'shift_jisx0213','utf_32','utf_32_be','utf_32_le','utf_16','utf_16_be','utf_16_le','utf_7','utf_8','utf_8_sig']
 
 
-for x in range(len(codecs)):
-    print(x,': Now checking use of:', codecs[x])
+for index, codec in enumerate(codecs, 1):
+    print(f'{index} : checking use of: {codec} \n')
     try:
 # here give a file that you want to encode instead of: 'H2-43.csv'
-        df = pd.read_csv('H2-43.csv', header = 0, encoding = (codecs[x]), sep=';') 
+        df = pd.read_csv('H2-43.csv', header = 0, encoding = codec, sep=';') 
         print(df.info())
         print(input('Press any key...'))
     except:
-        print('I can\'t load data for', codecs[x], '\n')
+        print(f'I can\'t load data for {codec} \n')
         print(input('Press any key...'))
 
-# commit zrobiony w celu sprawdzenia czy zniknie branch feature-enumerate
+
 
 
 
