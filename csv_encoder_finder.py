@@ -21,7 +21,7 @@ for x in range(len(codecs)):
         print('I can\'t load data for', codecs[x], '\n')
         print(input('Press any key...'))
 
-# to będą zmiany dokonywane na branchu "feature-enumerate"
+# commit zrobiony w celu sprawdzenia czy zniknie branch feature-enumerate
 
 
 
