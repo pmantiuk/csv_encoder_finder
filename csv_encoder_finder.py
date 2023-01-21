@@ -24,6 +24,7 @@ for x in range(len(codecs)):
 # To jest komentarz, którym sprawdzę w jaki sposób korzystać z git'a
 # kolejny komentarz
 # jeszcze jeden komentarz
+# komentarz nr 4
 
 
 
